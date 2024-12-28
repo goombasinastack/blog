@@ -1,0 +1,307 @@
+@mixin styles {
+  color-scheme: dark;
+
+  /* Framework color */
+  --main-bg: hsl(335deg, 10%, 11%);
+  --mask-bg: hsl(305deg, 0%, 27%);
+  --main-border-color: hsl(275deg, 0%, 17%);
+
+  /* Common color */
+  --text-color: hsl(60deg, 1%, 69%);
+  --text-muted-color: hsl(60deg, 1%, 50%);
+  --text-muted-highlight-color: hsl(0deg, 0%, 68%);
+  --heading-color: hsl(0deg, 0%, 80%);
+  --label-color: hsl(0deg, 0%, 65%);
+  --blockquote-border-color: hsl(0deg, 0%, 26%);
+  --blockquote-text-color: hsl(0deg, 0%, 53%);
+  --link-color: hsl(320deg, 89%, 76%);
+  --link-underline-color: hsl(320deg, 29%, 45%);
+  --button-bg: hsl(0deg, 0%, 12%);
+  --btn-border-color: hsl(320deg, 3%, 19%);
+  --btn-backtotop-color: var(--text-color);
+  --btn-backtotop-border-color: hsl(320deg, 1%, 13%);
+  --card-header-bg: hsl(0deg, 0%, 16%);
+  --checkbox-color: hsl(200deg, 0%, 47%);
+  --checkbox-checked-color: var(--link-color);
+  --img-bg: radial-gradient(
+    circle,
+    hsl(335deg, 4%, 9%) 0%,
+    hsl(0deg, 0%, 13%) 100%
+  );
+  --shimmer-bg: linear-gradient(
+    90deg,
+    hsla(0deg, 0%, 100%, 0) 0%,
+    hsla(0deg, 0%, 24%, 0.4) 50%,
+    hsla(0deg, 0%, 100%, 0) 100%
+  );
+
+  /* Sidebar */
+  --site-title-color: hsl(320deg, 90%, 85%);
+  --site-subtitle-color: hsl(320deg, 70%, 70%);
+  --sidebar-bg: hsl(335deg, 60%, 35%);
+  --sidebar-border-color: var(--link-underline-color);
+  --sidebar-muted-color: var(--site-subtitle-color);
+  --sidebar-active-color: var(--site-title-color);
+  --sidebar-hover-bg: hsl(335deg, 90%, 25%);
+  --sidebar-btn-bg: var(--sidebar-hover-bg);
+  --sidebar-btn-color: var(--site-subtitle-color);
+  --avatar-border-color: hsla(0deg, 0%, 0%, 0);
+
+  /* Topbar */
+  --topbar-bg: hsla(335deg, 10%, 11%, 0.64);
+  --topbar-text-color: var(--text-color);
+  --search-border-color: hsl(0deg, 0%, 22%);
+  --search-icon-color: hsl(200deg, 1%, 45%);
+  --input-focus-border-color: hsl(200deg, 1%, 45%);
+
+  /* Home page */
+  --post-list-text-color: hsl(210deg, 1%, 69%);
+  --btn-patinator-text-color: var(--text-color);
+  --btn-paginator-hover-color: hsl(0deg, 0%, 18%);
+
+  /* Posts */
+  --toc-highlight: var(--link-color);
+  --toc-popup-border-color: hsl(0deg, 0%, 22%);
+  --tag-hover: hsl(335deg, 18%, 21%);
+  --tb-odd-bg: hsl(335deg, 1%, 10%); /* odd rows of the posts' table */
+  --tb-even-bg: hsl(35deg, 5%, 8%); /* even rows of the posts' table */
+  --tb-border-color: var(--tb-odd-big);
+  --footnote-target-bg: hsl(231deg, 48%, 48%);
+  --btn-share-color: var(--text-muted-color);
+  --btn-share-hover-color: var(--text-color);
+  --card-bg: hsl(335deg, 25%, 20%);
+  --card-hovor-bg: hsl(340deg, 7%, 30%);
+  --card-shadow: hsla(0deg, 0%, 8%, 0.72) 0 6px 18px 0,
+    hsla(0deg, 0%, 53%, 0.24) 0 0 0 1px;
+  --kbd-wrap-color: hsl(0deg, 0%, 42%);
+  --kbd-text-color: hsl(0deg, 0%, 83%);
+  --kbd-bg-color: hsl(0deg, 0%, 14%);
+  --prompt-text-color: hsla(0deg, 5%, 84%, 0.75);
+  --prompt-tip-bg: hsla(142deg, 46%, 16%, 0.64);
+  --prompt-tip-icon-color: hsla(120deg, 83%, 35%, 0.81);
+  --prompt-info-bg: hsla(208deg, 87%, 22%, 0.8);
+  --prompt-info-icon-color: hsl(206deg, 100%, 41%);
+  --prompt-warning-bg: hsla(46deg, 94%, 18%, 0.88);
+  --prompt-warning-icon-color: hsla(39deg, 100%, 50%, 0.8);
+  --prompt-danger-bg: hsla(15deg, 83%, 18%, 0.8);
+  --prompt-danger-icon-color: hsl(0deg, 98%, 41%);
+
+  /* Tags */
+  --tag-border: hsl(300deg, 20%, 29%);
+  --tag-shadow: hsl(290deg, 2%, 13%);
+  --dash-color: hsl(300deg, 4%, 26%);
+  --search-tag-bg: hsl(0deg, 0%, 16%);
+
+  /* Categories */
+  --categories-border: hsla(335deg, 4%, 26%, 0.5);
+  --categories-hover-bg: hsl(335deg, 2%, 29%);
+  --categories-icon-hover-color: white;
+
+  /* Archive */
+  --timeline-node-bg: hsl(350deg, 3%, 60%);
+  --timeline-color: hsl(350deg, 4%, 26%);
+  --timeline-year-dot-color: var(--timeline-color);
+
+  /* Code highlight colors */
+  --language-border-color: hsl(0deg, 0%, 18%);
+  --highlight-bg-color: hsl(0deg, 0%, 8%);
+  --highlighter-rouge-color: hsl(208deg, 59%, 87%);
+  --highlight-lineno-color: hsl(0deg, 0%, 50%);
+  --inline-code-bg: hsla(0deg, 0%, 100%, 0.05);
+  --code-color: hsl(0deg, 0%, 69%);
+  --code-header-text-color: hsl(0deg, 0%, 42%);
+  --code-header-muted-color: hsl(0deg, 0%, 21%);
+  --code-header-icon-color: hsl(0deg, 0%, 34%);
+  --clipboard-checked-color: hsl(120deg, 65%, 48%);
+  --filepath-text-color: hsl(0deg, 0%, 79%);
+
+  .light {
+    display: none;
+  }
+
+  /* Categories */
+  .categories.card,
+  .list-group-item {
+    background-color: var(--card-bg);
+  }
+
+  .categories {
+    .card-header {
+      background-color: var(--card-header-bg);
+    }
+
+    .list-group-item {
+      border-left: none;
+      border-right: none;
+      padding-left: 2rem;
+      border-color: var(--categories-border);
+
+      &:last-child {
+        border-bottom-color: var(--card-bg);
+      }
+    }
+  }
+
+  #archives li:nth-child(odd) {
+    background-image: linear-gradient(
+      to left,
+      var(--main-bg),
+      hsl(340deg, 7%, 16%),
+      hsl(340deg, 7%, 16%),
+      hsl(340deg, 7%, 16%),
+      var(--main-bg)
+    );
+  }
+
+  /* stylelint-disable-next-line selector-id-pattern */
+  #disqus_thread {
+    color-scheme: none;
+  }
+
+  /* --- Syntax highlight theme from `rougify style base16.dark` --- */
+
+  .highlight .gp {
+    color: hsl(207deg, 10%, 57%);
+  }
+
+  .highlight table td {
+    padding: 5px;
+  }
+
+  .highlight table pre {
+    margin: 0;
+  }
+
+  .highlight,
+  .highlight .w {
+    color: hsl(0deg, 0%, 82%);
+    background-color: hsl(0deg, 0%, 8%);
+  }
+
+  .highlight .err {
+    color: hsl(0deg, 0%, 8%);
+    background-color: hsl(359deg, 45%, 46%);
+  }
+
+  .highlight .c,
+  .highlight .ch,
+  .highlight .cd,
+  .highlight .cm,
+  .highlight .cpf,
+  .highlight .c1,
+  .highlight .cs {
+    color: hsl(0deg, 0%, 52%);
+  }
+
+  .highlight .cp {
+    color: hsl(35deg, 85%, 71%);
+  }
+
+  .highlight .nt {
+    color: hsl(35deg, 85%, 71%);
+  }
+
+  .highlight .o,
+  .highlight .ow {
+    color: hsl(0deg, 0%, 82%);
+  }
+
+  .highlight .p,
+  .highlight .pi {
+    color: hsl(0deg, 0%, 82%);
+  }
+
+  .highlight .gi {
+    color: hsl(79deg, 32%, 51%);
+  }
+
+  .highlight .gd {
+    color: hsl(359deg, 77%, 74%);
+    background-color: hsl(0deg, 100%, 10%);
+  }
+
+  .highlight .gh {
+    color: hsl(198deg, 34%, 56%);
+    background-color: hsl(0deg, 0%, 8%);
+    font-weight: bold;
+  }
+
+  .highlight .k,
+  .highlight .kn,
+  .highlight .kp,
+  .highlight .kr,
+  .highlight .kv {
+    color: hsl(312deg, 24%, 56%);
+  }
+
+  .highlight .kc {
+    color: hsl(27deg, 61%, 55%);
+  }
+
+  .highlight .kt {
+    color: hsl(27deg, 61%, 55%);
+  }
+
+  .highlight .kd {
+    color: hsl(27deg, 61%, 55%);
+  }
+
+  .highlight .s,
+  .highlight .sb,
+  .highlight .sc,
+  .highlight .dl,
+  .highlight .sd,
+  .highlight .s2,
+  .highlight .sh,
+  .highlight .sx,
+  .highlight .s1 {
+    color: hsl(79deg, 32%, 51%);
+  }
+
+  .highlight .sa {
+    color: hsl(312deg, 24%, 56%);
+  }
+
+  .highlight .sr {
+    color: hsl(170deg, 30%, 58%);
+  }
+
+  .highlight .si {
+    color: hsl(21deg, 45%, 49%);
+  }
+
+  .highlight .se {
+    color: hsl(21deg, 45%, 49%);
+  }
+
+  .highlight .nn {
+    color: hsl(35deg, 85%, 71%);
+  }
+
+  .highlight .nc {
+    color: hsl(35deg, 85%, 71%);
+  }
+
+  .highlight .no {
+    color: hsl(35deg, 85%, 71%);
+  }
+
+  .highlight .na {
+    color: hsl(198deg, 34%, 56%);
+  }
+
+  .highlight .m,
+  .highlight .mb,
+  .highlight .mf,
+  .highlight .mh,
+  .highlight .mi,
+  .highlight .il,
+  .highlight .mo,
+  .highlight .mx {
+    color: hsl(79deg, 32%, 51%);
+  }
+
+  .highlight .ss {
+    color: hsl(79deg, 32%, 51%);
+  }
+}
