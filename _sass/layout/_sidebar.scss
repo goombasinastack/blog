@@ -55,15 +55,14 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
   #avatar {
     display: block;
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 0.5rem;
+    height: 0.5rem;
     overflow: hidden;
-    box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
 
     @include bp.sm {
-      width: 7rem;
-      height: 7rem;
+      width: 0rem;
+      height: 0rem;
     }
 
     img {
@@ -184,7 +183,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       margin-bottom: 1.75rem;
     }
 
-    $btn-size: 1.75rem;
+    $btn-size: 2.25rem;
 
     %button {
       width: $btn-size;
