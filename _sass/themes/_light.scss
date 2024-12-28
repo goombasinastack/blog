@@ -33,16 +33,16 @@
   );
 
   /* Sidebar */
-  --site-title-color: rgb(113, 113, 113);
-  --site-subtitle-color: #717171;
-  --sidebar-bg: #f6f8fa;
-  --sidebar-border-color: #efefef;
-  --sidebar-muted-color: #545454;
-  --sidebar-active-color: #1d1d1d;
-  --sidebar-hover-bg: rgb(223, 233, 241, 0.64);
-  --sidebar-btn-bg: white;
-  --sidebar-btn-color: #8e8e8e;
-  --avatar-border-color: white;
+  --site-title-color: hsl(320deg, 90%, 85%);
+  --site-subtitle-color: hsl(320deg, 70%, 70%);
+  --sidebar-bg: hsl(335deg, 60%, 35%);
+  --sidebar-border-color: var(--link-underline-color);
+  --sidebar-muted-color: var(--site-subtitle-color);
+  --sidebar-active-color: var(--site-title-color);
+  --sidebar-hover-bg: hsl(335deg, 90%, 25%);
+  --sidebar-btn-bg: var(--sidebar-hover-bg);
+  --sidebar-btn-color: var(--site-subtitle-color);
+  --avatar-border-color: hsla(0deg, 0%, 0%, 0);
 
   /* Topbar */
   --topbar-bg: rgb(255, 255, 255, 0.7);
