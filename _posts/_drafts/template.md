@@ -18,7 +18,8 @@ Nutshell.setOptions({
 });
 </script><!-- enables Nutshell by Nicky Case -->
 
-> This article uses Nutshells by Nicky Case. If you see <u>:underlined text like this</u>, tap it for some extra information!
+> This article uses Nutshells by Nicky Case. If you see 
+> [:underlined text like this](#x-nutshell-guide), tap it for some extra information!
 {: .prompt-info }
 
 ## Section Header
@@ -35,6 +36,6 @@ Bottom Ass Pissantas :33c
 ### :x Nutshell guide
   Nutshells are snapshots of sections from other pages, or other parts of the same page. You can use them in your own sites: visit [here](https://ncase.me/nutshell/)!
 
-  All nutshells congregate at the bottom of the page, much like footnotes--except you don't need to scroll all the way back up, since they're embedded in the text.
+  Self-referential nutshells congregate at the bottom of the page, much like footnotes--except you don't need to scroll all the way back up, since they're embedded in the text. Score!
 
   (The table of contents preview breaks a bit, though.)

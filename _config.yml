@@ -10,13 +10,15 @@ lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: America/Chicago
+future: false
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: kylieblog # the main title
 
-tagline: "ROLLING AROUUUUUND AT THE SPEED OF SOOOOUND"
+tagline: "One Shared Braincell! On Spotify. On Spotify. On Spotify. On Spotify."
+# "ROLLING AROUUUUUND AT THE SPEED OF SOOOOUND"
 # "what's a kylie? a little cat that sits around cutely :33"
 # "oughhh,... oughh ..gh..hgoh ouughhhh .. ouuuuuughhh... ouugh 9/11 ouuuuguhghh"
 
