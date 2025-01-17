@@ -123,13 +123,13 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: "goombasinstack/blog" # <gh-username>/<repo>
-    repo_id: "909202118"
-    category: "Announcements"
-    category_id: "1"
+    repo: goombasinstack/blog # <gh-username>/<repo>
+    repo_id: 909202118
+    category: Announcements
+    category_id: 1
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
-    input_position: "top" # optional, default to 'bottom'
+    input_position: top # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
