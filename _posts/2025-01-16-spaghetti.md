@@ -62,11 +62,11 @@ it's pretty simple! so what happened is i ran out of tomato paste. but i had ple
 
 and guess what???? it Worked!!! it Worked!!! and it was beautiful. Jesus Wept.
 
-you get all the nice starchines in the sauce that would originally be lost in the pasta water, and it makes it Better.
+you get all the nice starchiness in the sauce that would originally be lost in the pasta water, and it makes it Better.
 
 also, i learned that Salt Makes It Even Better. like yes, i know i touched on it in the video--but i was not Using Enough Salt. i took advice from some cooking video on youtube i forget: salt will Keep Making It Taste Better until it Doesn't. and your goal is to be Right On That Edge.
 
-i think that's all i have to say about spaghetti [right now](#spaghetti-from-the-past).
+i think that's all i have to say about spaghetti [:right now](#spaghetti-from-the-past).
 
 
 ## blog updates
