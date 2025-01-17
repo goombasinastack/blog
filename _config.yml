@@ -116,17 +116,17 @@ comments:
   provider: giscus # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname: # fill with the Disqus shortname. ›r https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
     repo: # <gh-username>/<repo>
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: goombasinstack/blog # <gh-username>/<repo>
-    repo_id: R_kgDONjFSxg
-    category: Announcements
-    category_id: DIC_kwDONjFSxs4CmE2W
+    repo: "goombasinstack/blog" # <gh-username>/<repo>
+    repo_id: "R_kgDONjFSxg"
+    category: "Announcements"
+    category_id: "DIC_kwDONjFSxs4CmE2W"
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: top # optional, default to 'bottom'
