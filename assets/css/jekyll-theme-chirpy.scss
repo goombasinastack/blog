@@ -2,9 +2,19 @@
 ---
 
 @use 'main
-{%- if jekyll.environment == 'production' -%}
+{%- if jekyll.environment == ' production ' -%}
   .bundle
 {%- endif -%}
 ';
 
 /* append your custom style below */
+
+.btn:hover {
+  background-color: var(--link-color) !important;
+}
+
+.btn.btn-outline-primary {
+  &:not(.disabled):hover {
+    border-color: var(--link-color) !important;
+  }
+}
