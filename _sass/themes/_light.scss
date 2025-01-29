@@ -1,8 +1,8 @@
 @mixin styles {
   /* Framework color */
-  --main-bg: hsl(335, 3%, 97%);
-  --mask-bg: #c1c3c5;
-  --main-border-color: hsl(0, 0%, 93%);
+  --main-bg: hsl(20deg, 30%, 90%);
+  --mask-bg: #c5c2c1;
+  --main-border-color: hsl(10deg, 30%, 95%);
 
   /* Common color */
   --text-color: hsl(335, 7%, 22%);
@@ -45,7 +45,7 @@
   --avatar-border-color: hsla(0deg, 0%, 0%, 0);
 
   /* Topbar */
-  --topbar-bg: hsla(335, 3%, 97%, 70%);
+  --topbar-bg: hsla(20deg, 30%, 90%, 70%);
   --topbar-text-color: rgb(78, 78, 78);
   --search-border-color: rgb(240, 240, 240);
   --search-icon-color: hsl(216, 9%, 78%);
@@ -61,7 +61,7 @@
   --toc-popup-border-color: hsl(0deg, 0%, 22%);
   --btn-share-color: gray;
   --btn-share-hover-color: hsl(335, 98%, 52%);
-  --card-bg: white;
+  --card-bg: hsl(20deg, 30%, 95%);
   --card-hovor-bg: #e2e2e2;
   --card-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0,
     rgba(211, 209, 209, 0.15) 0 0 0 1px;
@@ -83,7 +83,7 @@
   --prompt-danger-icon-color: #df3c30;
 
   /* Tags */
-  --tag-border: #dee2e6;
+  --tag-border: hsl(20deg, 15%, 80%);
   --tag-shadow: var(--btn-border-color);
   --tag-hover: rgb(222, 226, 230);
   --search-tag-bg: #f8f9fa;

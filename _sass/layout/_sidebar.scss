@@ -79,7 +79,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     @extend %clickable-transition;
 
     padding-left: 2.5rem;
-    padding-right: 1.25rem;
+    padding-right: 2.5rem;
     width: 100%;
 
     @include bp.lg {
@@ -99,7 +99,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
     font-family: 'Noto Serif', serif;
     font-weight: 900;
-    font-size: 1.75rem;
+    font-size: 2.25rem;
     line-height: 1.2;
     letter-spacing: 0.25px;
     margin-top: 1.25rem;
@@ -109,7 +109,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   }
 
   .site-subtitle {
-    font-size: 95%;
+    font-size: 100%;
     color: var(--site-subtitle-color);
     margin-top: 0.25rem;
     word-spacing: 1px;
