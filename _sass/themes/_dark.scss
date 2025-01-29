@@ -4,7 +4,7 @@
   /* Framework color */
   --main-bg: hsl(335deg, 10%, 11%);
   --mask-bg: hsl(305deg, 0%, 27%);
-  --main-border-color: hsl(275deg, 0%, 17%);
+  --main-border-color: hsl(0, 0%, 25%);
 
   /* Common color */
   --text-color: hsl(60deg, 1%, 69%);
@@ -65,7 +65,7 @@
   --tag-hover: hsl(335deg, 18%, 21%);
   --tb-odd-bg: hsl(335deg, 1%, 10%); /* odd rows of the posts' table */
   --tb-even-bg: hsl(35deg, 5%, 8%); /* even rows of the posts' table */
-  --tb-border-color: var(--tb-odd-big);
+  --tb-border-color: var(--tb-odd-bg);
   --footnote-target-bg: hsl(231deg, 48%, 48%);
   --btn-share-color: var(--text-muted-color);
   --btn-share-hover-color: var(--text-color);
@@ -77,8 +77,8 @@
   --kbd-text-color: hsl(0deg, 0%, 83%);
   --kbd-bg-color: hsl(0deg, 0%, 14%);
   --prompt-text-color: hsla(0deg, 5%, 84%, 0.75);
-  --prompt-tip-bg: hsla(142deg, 46%, 16%, 0.64);
-  --prompt-tip-icon-color: hsla(120, 8%, 43%, 0.81);
+  --prompt-tip-bg: hsl(142deg, 46%, 16%);
+  --prompt-tip-icon-color: hsl(120, 50%, 43%);
   --prompt-info-bg: hsla(208deg, 87%, 22%, 0.8);
   --prompt-info-icon-color: hsl(206deg, 100%, 41%);
   --prompt-warning-bg: hsla(46deg, 94%, 18%, 0.88);

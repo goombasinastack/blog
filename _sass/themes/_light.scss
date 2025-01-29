@@ -2,28 +2,28 @@
   /* Framework color */
   --main-bg: hsl(20deg, 30%, 90%);
   --mask-bg: #c5c2c1;
-  --main-border-color: hsl(10deg, 30%, 95%);
+  --main-border-color: hsl(320, 80%, 20%);
 
   /* Common color */
   --text-color: hsl(335, 7%, 22%);
-  --text-muted-color: #757575;
+  --text-muted-color: hsl(335, 10%, 38%);
   --text-muted-highlight-color: inherit;
   --heading-color: #2a2a2a;
-  --label-color: #585858;
-  --blockquote-border-color: #eeeeee;
-  --blockquote-text-color: #757575;
+  --label-color: var(--text-muted-color);
+  --blockquote-border-color: var(--link-underline-color);
+  --blockquote-text-color: var(--text-muted-color);
   --link-color: hsl(335, 100%, 35%);
-  --link-underline-color: hsl(330, 79%, 35%);
+  --link-underline-color: hsl(330, 80%, 30%);
   --button-bg: hsl(335, 70%, 75%);
   --btn-border-color: hsl(330, 37%, 72%);
-  --btn-backtotop-color: #686868;
+  --btn-backtotop-color: hsl(320, 80%, 20%);
   --btn-backtotop-border-color: #f1f1f1;
   --checkbox-color: #c5c5c5;
-  --checkbox-checked-color: #07a8f7;
+  --checkbox-checked-color: var(--link-color);
   --img-bg: radial-gradient(
     circle,
-    rgb(255, 255, 255) 0%,
-    rgb(239, 239, 239) 100%
+    rgb(238, 238, 238) 0%,
+    rgb(206, 190, 200) 100%
   );
   --shimmer-bg: linear-gradient(
     90deg,
@@ -46,10 +46,10 @@
 
   /* Topbar */
   --topbar-bg: hsla(20deg, 30%, 90%, 70%);
-  --topbar-text-color: rgb(78, 78, 78);
-  --search-border-color: rgb(240, 240, 240);
-  --search-icon-color: hsl(216, 9%, 78%);
-  --input-focus-border-color: hsl(0, 0%, 72%);
+  --topbar-text-color: var(--text-muted-color);
+  --search-border-color: hsl(320, 70, 70);
+  --search-icon-color: var(--text-muted-color);
+  --input-focus-border-color: var(--link-underline-color);
 
   /* Home page */
   --post-list-text-color: dimgray;
@@ -59,34 +59,34 @@
   /* Posts */
   --toc-highlight: var(--link-color);
   --toc-popup-border-color: hsl(0deg, 0%, 22%);
-  --btn-share-color: gray;
+  --btn-share-color: hsl(320, 15%, 50%);
   --btn-share-hover-color: hsl(335, 98%, 52%);
   --card-bg: hsl(20deg, 30%, 95%);
   --card-hovor-bg: #e2e2e2;
   --card-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0,
     rgba(211, 209, 209, 0.15) 0 0 0 1px;
-  --footnote-target-bg: lightcyan;
-  --tb-odd-bg: #fbfcfd;
-  --tb-border-color: #eaeaea;
-  --dash-color: silver;
-  --kbd-wrap-color: #bdbdbd;
+  --footnote-target-bg: hsl(330, 100%, 94%);
+  --tb-odd-bg: hsl(20deg, 35%, 88%);
+  --tb-border-color: var(--tb-odd-bg);
+  --dash-color: var(--link-color);
+  --kbd-wrap-color: var(--link-underline-color);
   --kbd-text-color: var(--text-color);
   --kbd-bg-color: white;
   --prompt-text-color: rgb(46, 46, 46, 0.77);
-  --prompt-tip-bg: rgb(123, 247, 144, 0.2);
-  --prompt-tip-icon-color: #03b303;
-  --prompt-info-bg: #e1f5fe;
-  --prompt-info-icon-color: #0070cb;
-  --prompt-warning-bg: rgb(255, 243, 205);
-  --prompt-warning-icon-color: #ef9c03;
-  --prompt-danger-bg: rgb(248, 215, 218, 0.56);
-  --prompt-danger-icon-color: #df3c30;
+  --prompt-tip-bg: hsl(130, 50%, 75%);
+  --prompt-tip-icon-color: hsl(120, 97%, 36%);
+  --prompt-info-bg: hsl(215, 94%, 85%);
+  --prompt-info-icon-color: hsl(207, 100%, 40%);
+  --prompt-warning-bg: hsl(40, 100%, 80%);
+  --prompt-warning-icon-color: hsl(39, 98%, 47%);
+  --prompt-danger-bg: hsl(355, 70%, 85%);
+  --prompt-danger-icon-color: hsl(350, 73%, 53%);
 
   /* Tags */
   --tag-border: hsl(20deg, 15%, 80%);
   --tag-shadow: var(--btn-border-color);
-  --tag-hover: rgb(222, 226, 230);
-  --search-tag-bg: #f8f9fa;
+  --tag-hover: hsl(320, 14%, 89%);
+  --search-tag-bg: hsl(320, 17%, 98%);
 
   /* Categories */
   --categories-border: rgba(0, 0, 0, 0.125);
@@ -95,7 +95,7 @@
 
   /* Archive */
   --timeline-color: rgba(0, 0, 0, 0.075);
-  --timeline-node-bg: #c2c6cc;
+  --timeline-node-bg: hsl(320, 9%, 78%);
   --timeline-year-dot-color: #ffffff;
 
   /* --- Custom code light mode colors --- */
