@@ -20,3 +20,15 @@
   }
 }
 */
+
+
+ .btn:hover {
+  background-color: var(--link-color) !important;
+}
+
+.btn.btn-outline-primary {
+  &:not(.disabled):hover {
+    border-color: var(--link-color) !important;
+  }
+}
+
