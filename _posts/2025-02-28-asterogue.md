@@ -34,7 +34,7 @@ About last year, I found an open-source extension of Scratch called Turbowarp. T
 
 ## The Game Jam
 
-Earlier this month, a club at my university called ACM Game Dev had a miniature arcade cabinet set out during a club-promotion event. Intrigued, I joined the club, learning that they had a [:game jam](#x-whats-a-game-jam) fast approaching. So, as you could probably guess, I joined the club!
+Earlier this month, a club at my university called ACM Game Dev had a miniature arcade cabinet set out during a club-promotion event. Intrigued, I joined the club, learning that they had a [:game jam](#whats-a-game-jam) fast approaching. So, as you could probably guess, I joined the club!
 
 This specific game jam was of the theme "Breakups", and lasted one week. The winning game is then ported to the full-size arcade machine in the Computer Science building, for any and all to play.
 
